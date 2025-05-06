@@ -3,9 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Olivia Ros</title>
 </head>
+
 <body>
-    
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--header-->
+    <header>
+
+        <!--Card-->
+        <div class="card text-bg-dark">
+            <img src="assets/img/bg-hero.jpg" class="card-img" alt="no hay imagen">
+            <div class="card-img-overlay">
+                <h5 class="card-title mt-5">Comidas del fin del mundo</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <button type="button" class="btn btn-outline-primary">Primary</button>
+                <button type="button" class="btn btn-outline-secondary">Secondary</button>
+            </div>
+        </div>
+    </header>
+
 </body>
+
+    <!--Sección-acerca-de-mi-->
+    <section>
+        <div class="container-fluid" style="text-align: center;">
+            <h1>Acerca de mi</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatum perspiciatis optio ratione incidunt inventore accusamus possimus repellat beatae modi saepe exercitationem non, aliquam cum unde ea labore dolore asperiores!</p>
+        </div>
+    </section>
+
+    <!--sección-cards-con-íconos-->
+    <section>
+        <div class="card-group" style="text-align: center;">
+            <!--card-ícono1-->
+            <div class="card">
+                <img src="..." class="card-img-top" alt="icono1">
+                    <div class="card-body">
+                        <h5 class="card-title">Fotógrafa de comida</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+            </div>
+            <!--card-ícono2-->
+            <div class="card">
+                <img src="..." class="card-img-top" alt="icono2">
+                    <div class="card-body">
+                        <h5 class="card-title">Crítica culinaria</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+            </div>
+
+            <!--card-ícono3-->
+            <div class="card">
+                <img src="..." class="card-img-top" alt="icono3">
+                    <div class="card-body">
+                        <h5 class="card-title">Bloggera de viajes</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!--sección-cards-con-imagenes-->
+    </section>
+
+        <!--Sección-título-mis-trabajos-->
+        <div class="row row-cols-1 row-cols-md-3 g-4" style="text-align: center" style= "background-color: #373A3C">
+            <h2>Mis trabajos</h2>
+
+            <!--card-imagen1-->
+            <div class="col">
+                <div class="card">
+                    <img src="assets/img/card-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Asado en la Patagonia</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                    </div>
+                </div>
+            </div>
+
+            <!--card-imagen2-->
+            <div class="col">
+                <div class="card">
+                    <img src="assets/img/card-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                    </div>
+                </div>
+            </div>
+
+            <!--card-imagen3-->
+            <div class="col">
+                <div class="card">
+                    <img src="assets/img/card-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+
 </html>
